@@ -4,9 +4,7 @@ import ExerciseList from "../components/ExerciseList.js"
 import BotonMas from '../components/BotonMas.js'
 
 class Exercises extends React.Component {
-    constructor(props){
-        super(props)
-        this.state = {
+    state = {
             data: [
                 {
                 "id": 1,
@@ -31,9 +29,7 @@ class Exercises extends React.Component {
                 "img": "https://firebasestorage.googleapis.com/v0/b/tutoriales-e4830.appspot.com/o/exercise03.png?alt=media&token=8e5301c0-151e-415d-bd2c-655235d9c916",
                 "leftColor": "#FAD961",
                 "rightColor": "#F76B1C"
-                }
-                ]
-        }
+                }]
     }
 
     render(){
